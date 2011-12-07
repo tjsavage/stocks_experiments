@@ -1,0 +1,3 @@
+[submodule "pystockquotes"]
+	path = pystockquotes
+	url = git@github.com:tjsavage/pystockquotes.git

@@ -3,7 +3,7 @@ from stock_lists.company_list import CompanyList
 from statlib import stats
 import random
 
-def run_experiment(company_list = CompanyList('sandp500'), sample_days=50, start_date=datetime.today() - timedelta(500), day_range=500, percent_correct=0.5, stocks_per_day=10):
+def run_experiment(company_list = CompanyList(list_name='sandp500'), sample_days=50, start_date=datetime.today() - timedelta(500), day_range=500, percent_correct=0.5, stocks_per_day=10):
     "Returns a list of daily deltas"
     deltas = []
     for day_num in range(sample_days):
